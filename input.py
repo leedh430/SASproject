@@ -5,8 +5,8 @@ import cgitb
 import pymysql
 import json 
 
-#choice from scenario.py +)전송된 시나리오 및 고객 정보
-demo_no=''  #호출이 없을 시 빈 화면 출력을 위한 선언
+#choice from case.py +)전송된 시나리오 및 고객 정보
+demo_no=''  #호출한 case가 없을 시 빈 화면 출력을 위한 선언
 det_no=''
 case_no=''
 form = cgi.FieldStorage()
