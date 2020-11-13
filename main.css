@@ -1,0 +1,150 @@
+
+.header {
+    text-align:left;
+    width: 100%;
+    padding: 18px;
+    margin:auto; 
+}
+body {
+    margin: 0px;
+}
+
+.background {
+    background-image: url('img/background_SAS.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container {  
+    left: 10%;
+    position: relative;
+    width: 75%;
+    min-height: 80vh;
+    background: rgb(29, 143, 224);
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    opacity: 0.85; 
+}
+
+.casemenu {
+    width:100%;
+}
+
+.input {
+    background: rgb(9, 105, 174);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-input {
+    background: rgb(9, 105, 174);
+    width: 100%;
+    position: relative;
+}
+
+.blue_background {
+    background: rgb(9, 105, 174);
+}
+
+.navy_background {
+    background: rgb(0, 59, 118);
+}
+
+.output{
+    background-image: url('img/sas_output.jpg');
+    background: rgb(0, 59, 118);
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.output_frame{
+    background-image: url('img/sas_output.jpg');
+    background: rgb(0, 59, 118);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table {
+    display:table;
+}
+.tr{
+    display:table-row;
+}
+.td{
+    display:table-cell;
+}
+ul{
+    list-style:none;
+    padding-left:0px;
+    } 
+    
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    background-color: black;   
+  }
+.topMenuLi:hover .subnav {
+    background-color: lightgrey;
+    top:0px; 
+    height: 100%;
+    position: relative;
+}
+
+.caseMenuLi:hover .subnav {
+    background-color: white;
+    height: 100%;
+    position: relative;
+    transition: 0.3s
+}
+.subnav { 
+    width:100%;
+    height: 0px;  
+    overflow: hidden; 
+}
+
+.subnav:hover .casenav {
+    background-color: grey;
+    top: 0px;
+    height: 100%;
+    position : relative;
+}
+.casenav {
+    width:20%;
+    height: 0px;
+    overflow: hidden;
+}
+ 
+  .sidenav .menu {
+    height:50px;
+    padding: 12px 12px 8px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    background-color:   grey;
+  }
+  
+  input[type="checkbox"]:checked~ul {
+    display:none;
+}
+ 
+  *, ::after, ::before {
+    box-sizing: border-box;
+}
